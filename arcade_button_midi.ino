@@ -4,7 +4,7 @@
 const int buttons = 4;
 
 //MIDI Setup
-int* song[buttons] = {NOTE_E2, NOTE_G2, NOTE_E3, NOTE_B2};
+int* song[buttons] = {NOTE_C2, NOTE_E2, NOTE_C3, NOTE_GS2};
 int midiChannel[buttons] = {6, 6, 6, 6}; // midi channel for each button
 int instruments[16] = {102, 999, 999, 999, 999, 999, 999, 999, 999, 999 /*Drums*/, 999, 999, 999, 999, 999, 999};
 MIDI_CREATE_INSTANCE(HardwareSerial, Serial, MIDI);  
